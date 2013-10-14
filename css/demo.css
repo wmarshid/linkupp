@@ -138,6 +138,10 @@
 	line-height: 1.4;
 }
 
+.container > section p > a {
+	color: #f06060;
+}
+
 @media screen and (max-width: 25em) {
 
 	.codrops-icon span {

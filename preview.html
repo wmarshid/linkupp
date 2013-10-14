@@ -10,6 +10,7 @@
 		<link rel="stylesheet" type="text/css" href="css/normalize.css" />
 		<link rel="stylesheet" type="text/css" href="css/demo.css" />
 		<link rel="stylesheet" type="text/css" href="css/component.css" />
+		<link rel="stylesheet" type="text/css" href="css/ms-effect.css" />
 		<script src="js/modernizr-2.6.2.min.js"></script>
 	</head>
 	<body>
@@ -20,7 +21,31 @@
 			</header>
 			<!-- Mission statement and Brief -->
 			<section>
+				<p>We have included some screens of the general app functionality, you can explore them using the demo below. For a more detailed explanation of the app, please see our Varsity Pitch video on YouTube <a href="http://youtu.be/AkSfR1GRWGA">here</a>.</p>
 				<p>Note; These features are experimental and may not render correctly in all browsers. It is advised that you use a (fully updated) modern web browser like Google Chrome or Mozilla Firefox.</p>
+				<br /><br />
+				<div class="ms-wrapper ms-effect-1">
+				<button>toggle view</button>
+				<div class="ms-perspective">
+					<div class="ms-device">
+						<div class="ms-object">
+							<div class="ms-front"></div>
+							<div class="ms-back"></div>
+							<div class="ms-left ms-side"></div>
+							<div class="ms-right ms-side"></div>
+							<div class="ms-top ms-side"></div>
+							<div class="ms-bottom ms-side"></div>
+						</div><!-- /ms-object -->
+						<div class="ms-screens">
+							<a class="ms-screen-1"></a>
+							<a class="ms-screen-2"></a>
+							<a class="ms-screen-3"></a>
+							<a class="ms-screen-4"></a>
+							<a class="ms-screen-5" href="contact.html"></a>
+						</div>
+					</div><!-- /ms-device -->
+				</div><!-- /ms-perspective -->
+			</div><!-- /ms-wrapper -->
 			</section>
 			<!-- Site navigation wheel; courtesy of Codrops -->
 			<div class="component">
@@ -48,6 +73,8 @@
 		</div><!-- close container -->
 		<script src="js/polyfills.js"></script>
 		<script src="js/demo.js"></script>
+		<script src="js/classie.js"></script>
+		<script src="js/phoneSlideshow.js"></script>
 	</body>
 
 
