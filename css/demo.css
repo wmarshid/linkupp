@@ -139,7 +139,23 @@
 }
 
 .container > section p > a {
+	text-decoration: none;
 	color: #f06060;
+	opacity: 1.0;
+	font-weight: 400;
+}
+
+.container > section p > a:hover,
+.container > section p > a:focus {
+	outline: none;
+}
+
+.container > section p > a:hover {
+	text-decoration: underline;
+}
+
+.container > section p > a:visited {
+	color: #A84343;
 }
 
 @media screen and (max-width: 25em) {

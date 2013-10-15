@@ -21,46 +21,57 @@
 			</header>
 			<!-- Mission statement and Brief -->
 			<section>
-				<p>We have included some screens of the general app functionality, you can explore them using the demo below. For a more detailed explanation of the app, please see our Varsity Pitch video on YouTube <a href="http://youtu.be/AkSfR1GRWGA">here</a>.</p>
+				<p>Included are screens of the general app functionality, you can explore them using the demo below. For a more detailed explanation of the app, please see our Varsity Pitch video on YouTube <a href="http://youtu.be/AkSfR1GRWGA">here</a>.</p>
 				<p>Note; These features are experimental and may not render correctly in all browsers. It is advised that you use a (fully updated) modern web browser like Google Chrome or Mozilla Firefox.</p>
 				<br /><br />
-				<div class="ms-wrapper ms-effect-1">
-				<button>toggle view</button>
-				<div class="ms-perspective">
-					<div class="ms-device">
-						<div class="ms-object">
-							<div class="ms-front"></div>
-							<div class="ms-back"></div>
-							<div class="ms-left ms-side"></div>
-							<div class="ms-right ms-side"></div>
-							<div class="ms-top ms-side"></div>
-							<div class="ms-bottom ms-side"></div>
-						</div><!-- /ms-object -->
-						<div class="ms-screens">
-							<a class="ms-screen-1"></a>
-							<a class="ms-screen-2"></a>
-							<a class="ms-screen-3"></a>
-							<a class="ms-screen-4"></a>
-							<a class="ms-screen-5" href="contact.html"></a>
-						</div>
-					</div><!-- /ms-device -->
-				</div><!-- /ms-perspective -->
-			</div><!-- /ms-wrapper -->
+				<div id="preview" class="ms-wrapper ms-effect-1">
+					<button>toggle view</button>
+					<div class="ms-perspective">
+						<div class="ms-device">
+							<div class="ms-object">
+								<div class="ms-front"></div>
+								<div class="ms-back"></div>
+								<div class="ms-left ms-side"></div>
+								<div class="ms-right ms-side"></div>
+								<div class="ms-top ms-side"></div>
+								<div class="ms-bottom ms-side"></div>
+							</div><!-- /ms-object -->
+							<div class="ms-screens">
+								<a class="ms-screen-1" href="#alert"></a>
+								<a class="ms-screen-2" href="#profile"></a>
+								<a class="ms-screen-3" href="#matches"></a>
+								<a class="ms-screen-4" href="#reg"></a>
+								<a class="ms-screen-5" href="#sign"></a>
+							</div>
+						</div><!-- /ms-device -->
+					</div><!-- /ms-perspective -->
+				</div><!-- /ms-wrapper -->
+				<h3 id="sign">Sign up</h3>
+				<p>Right off the bat we show you who there is to meet where you currently are. Once you've found  potential contacts, registration is simple. Just make sure you have something to say!</p>
+				<p><a href="#preview">back</a></p>
+				<h3 id="reg">Registration</h3>
+				<p>All we need is your name and contact details, authentication is handled for you. Start filling out your profile with skills, interests or hobbies or put our app to work for you and let it get these from your existing online profiles.
+				<h3 id="matches">Matches</h3>
+				<p>The fun part! Our super smart algorithm has already found you some people to talk to, excellent. Now indicate which of them you would actually like to meet, sit back and relax. You will be notified once a mutual match is found. Never miss another great connection.
+				<h3 id="profile">Profile</h3>
+				<p>You have complete customisation over your own profile with the power to hide or display any attributes you wish i.e. seperate your business and personal lives. Your location is revealed only when you choose so or by checking into one of the popular social apps.</p>
+				<h3 id="alert">Alert Box</h3>
+				<p>This displays notifications from other users who would like to linkupp where you are, whether to meet them or not is up to you. The linkupp system works similar to friending people on facebook and is completely asynchronous. The app automatically detects mutual matches and the connection is made only when both people wish to meet one another.</p>
 			</section>
 			<!-- Site navigation wheel; courtesy of Codrops -->
 			<div class="component">
-				<h2>About Contact</h2>
+				<!--<h2>About Contact</h2>-->
 				<!-- Start Nav Structure -->
 				<button class="cn-button" id="cn-button">Menu</button>
 				<div class="cn-wrapper" id="cn-wrapper">
 					<ul>
-						<li><a href="#"><span></span></a></li>
-						<li><a href="#"><span></span></a></li>
+						<li class="empty"><a href="#"><span></span></a></li>
+						<li class="empty"><a href="#"><span></span></a></li>
 						<li><a href="index.html"><span>About</span></a></li>
 						<li><a href="contact.html"><span>Contact</span></a></li>
 						<li><a href="http://twitter.com/getlinkupp"><span>Follow</span></a></li>
-						<li><a href="#"><span></span></a></li>
-						<li><a href="#"><span></span></a></li>
+						<li class="empty"><a href="#"><span></span></a></li>
+						<li class="empty"><a href="#"><span></span></a></li>
 					 </ul>
 				</div>
 				<!-- End of Nav Structure -->
@@ -68,6 +79,7 @@
 			<!-- Acknowledgements and Footer -->
 			<div class="codrops-top clearfix">
 				<a class="codrops-icon codrops-icon-prev" href="twitter.com/getlinkupp"><span>Content copyright of Linkupp, Inc.</span></a>
+				<span class="right"><a href="http://www.pixeden.com/psd-mock-up-templates/iphone-5-psd-flat-design-mockup">iPhone by Pixeden</a>
 				<span class="right"><a class="codrops-icon codrops-icon-drop" href="http://tympanus.net/codrops/?p=16114"><span>Template courtesy of Codrops</span></a></span>
 			</div>
 		</div><!-- close container -->
